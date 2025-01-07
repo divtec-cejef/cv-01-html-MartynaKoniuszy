@@ -3,12 +3,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    font-family: Abadi Extra Light;
+    font-weight: 300;
+    font-size: 12 px;
+    line-height: 1.1;
+    color: smokewhite;
+    background-color: darkturquoise;
 }
 
 img {
@@ -18,7 +18,7 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: lightpurple;
     text-decoration: none;
 }
 
