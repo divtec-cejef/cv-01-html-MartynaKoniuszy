@@ -7,8 +7,8 @@ body {
     font-weight: 300;
     font-size: 12 px;
     line-height: 1.1;
-    color: smokewhite;
-    background-color: darkturquoise;
+    color: #E1E6ED;
+    background-color: #4D9191;
 }
 
 img {
@@ -18,10 +18,10 @@ img {
 }
 
 a {
-    color: lightpurple;
+    color: #A29ED9;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #887CC2;
 }
