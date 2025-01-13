@@ -1,27 +1,50 @@
-* {
-    box-sizing: border-box;
+/* main.css */
+
+/* Changer la couleur du texte */
+h1 {
+    color: blue;
 }
 
+/* Modifier la taille des textes */
+p {
+    font-size: 14px;
+}
+
+/* Ajouter une marge intérieure au header */
+header {
+    padding: 10px;
+}
+
+/* Ajouter une marge extérieure au footer */
+footer {
+    margin-top: 10px;
+}
+
+/* Changer l'alignement du texte */
+.text-center {
+    text-align: center;
+}
+
+/* Appliquer une image de fond à la page */
 body {
-    font-family: Abadi Extra Light;
-    font-weight: 300;
-    font-size: 12 px;
-    line-height: 1.1;
-    color: #E1E6ED;
-    background-color: #A081DB;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-a {
-    color: #94A4D6;
+/* Ajouter un effet au lien */
+nav a {
+    color: black;
     text-decoration: none;
 }
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-a:hover {
-    color: #887CC2;
+/* Ajouter la bordure d'un élément */
+section {
+    border: 1px solid gray;
+    padding: 10px;
 }
