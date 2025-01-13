@@ -2,7 +2,7 @@
 
 /* Changer la couleur du texte */
 h1 {
-    color: blue;
+    color:#21587a;
 }
 
 /* Modifier la taille des textes */
@@ -28,23 +28,23 @@ footer {
 /* Appliquer une image de fond à la page */
 body {
     background-color: lightgray;
-    font-family: Arial, sans-serif;
+    font-family: Quicksand;
     max-width: 800px;
     margin: 0 auto;
 }
 
 /* Ajouter un effet au lien */
 nav a {
-    color: black;
+    color: #4293ad;
     text-decoration: none;
 }
 nav a:hover {
-    color: red;
+    color:#6b559e;
     text-decoration: underline;
 }
 
 /* Ajouter la bordure d'un élément */
 section {
-    border: 1px solid gray;
+    border: 1px #a58fbd;
     padding: 10px;
 }
