@@ -2,12 +2,20 @@
 
 /* Changer la couleur du texte */
 h1 {
-    color:#21587a;
+    color: #21587a;
 }
 
 /* Modifier la taille des textes */
 p {
-    font-size: 14px;
+    font-size: 14px; /* Taille en px */
+}
+
+h2 {
+    font-size: 2em; /* Taille en em */
+}
+
+h3 {
+    font-size: 1.5rem; /* Taille en rem */
 }
 
 /* Ajouter une marge intérieure au header */
@@ -28,21 +36,39 @@ footer {
 /* Appliquer une image de fond à la page */
 body {
     background-color: lightgray;
-    font-family: Quicksand;
+    background-image: url('path/to/your/background.jpg'); /* Remplace par le bon chemin */
+    background-size: cover;
+    font-family: Quicksand, sans-serif;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0;
 }
 
 /* Ajouter un effet au lien */
 nav a {
     color: #4293ad;
     text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
 }
+
 nav a:hover {
-    color:#6b559e;
+    color: #6b559e;
     text-decoration: underline;
 }
 
+/* Ajouter la bordure d'un élément */
+section {
+    border: 1px solid #a58fbd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Ajouter une ombre à un élément */
+article {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+}
 /* Ajouter la bordure d'un élément */
 section {
     border: 1px #a58fbd;
